@@ -1,12 +1,12 @@
 {
   "name": "gulp-protractor",
-  "version": "4.1.2-k2",
+  "version": "4.1.2-k3",
   "description": "A helper for protactor and gulp",
   "keywords": [
     "gulpfriendly",
     "protractor"
   ],
-  "homepage": "https://github.com/mllrsohn/gulp-protractor",
+  "homepage": "https://github.com/kayak/gulp-protractor",
   "bugs": "https://github.com/mllrsohn/gulp-protractor/issues",
   "author": {
     "name": "Steffen Müller",
@@ -40,7 +40,7 @@
     "dargs": "^5.1.0",
     "event-stream": "3.3.4",
     "plugin-error": "^0.1.2",
-    "protractor": "5.4.5-k2"
+    "protractor": "5.4.5-k3"
   },
   "devDependencies": {
     "expect.js": "~0.3.1",
