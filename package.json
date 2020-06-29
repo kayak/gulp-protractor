@@ -1,6 +1,6 @@
 {
   "name": "gulp-protractor",
-  "version": "4.1.1",
+  "version": "4.1.2-k2",
   "description": "A helper for protactor and gulp",
   "keywords": [
     "gulpfriendly",
@@ -27,18 +27,20 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mllrsohn/gulp-protractor.git"
+    "url": "git@github.com:kayak/gulp-protractor.git"
   },
   "scripts": {
     "wd:update": "webdriver-manager update",
-    "test": "mocha"
+    "test": "mocha",
+    "login": "npm login --registry https://artifacts02.ci.runwaynine.com/repository/kayak-npm/",
+    "deploy": "npm publish --registry https://artifacts02.ci.runwaynine.com/repository/kayak-npm/"
   },
   "dependencies": {
     "async": "^2.1.5",
     "dargs": "^5.1.0",
     "event-stream": "3.3.4",
     "plugin-error": "^0.1.2",
-    "protractor": "^5"
+    "protractor": "5.4.5-k2"
   },
   "devDependencies": {
     "expect.js": "~0.3.1",
